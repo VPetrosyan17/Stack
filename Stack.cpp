@@ -17,7 +17,7 @@ class Stack{
 	}
 
 	// return the last element of the stack
-	T& top(){
+	T top(){
 		if(isEmpty()){
 			throw std::underflow_error("Stack is empty!");
 		}
